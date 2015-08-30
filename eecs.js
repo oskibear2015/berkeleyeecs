@@ -147,8 +147,8 @@ function body() {
 }
 
 introAudio.load();
-loopAudio.load();
-loopAudio.loop = true;
+//loopAudio.load();
+//loopAudio.loop = true;
 //loopAudio.play();
 //loopAudio.pause();
 
