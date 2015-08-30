@@ -1,7 +1,5 @@
 var introAudio = new Audio('intro.mp3');
-introAudio.load();
 var loopAudio = new Audio('loop.mp3');
-loopAudio.load();
 var eecsShit = [
     ["./bonus_clips/AnantSahai.mp3", function () {
         $(".bonus-image").attr("src", "./bonus_imgs/sahai.jpg");
@@ -151,8 +149,8 @@ function body() {
 introAudio.load();
 loopAudio.load();
 loopAudio.loop = true;
-loopAudio.play();
-loopAudio.pause();
+//loopAudio.play();
+//loopAudio.pause();
 
 setTimeout(start1, 10);
 
