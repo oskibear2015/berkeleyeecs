@@ -1,19 +1,19 @@
-var introAudio = new Audio('intro.wav');
-var loopAudio = new Audio('loop.wav');
+var introAudio = new Audio('intro.mp3');
+var loopAudio = new Audio('loop.mp3');
 var eecsShit = [
-    ["./bonus_clips/AnantSahai.wav", function () {
+    ["./bonus_clips/AnantSahai.mp3", function () {
         $(".bonus-image").attr("src", "./bonus_imgs/sahai.jpg");
     }],
-    ["./bonus_clips/EECSforLifeYo.wav", function () {
+    ["./bonus_clips/EECSforLifeYo.mp3", function () {
         $(".bonus-image").attr("src", "./bonus_imgs/eecs4lyfe.jpg");
     }],
-    ["./bonus_clips/ImBetterThanYou.wav", function () {
+    ["./bonus_clips/ImBetterThanYou.mp3", function () {
         $(".bonus-image").attr("src", "./bonus_imgs/betterthanyou.jpg");
     }],
-    ["./bonus_clips/PaulHilfinger.wav", function () {
+    ["./bonus_clips/PaulHilfinger.mp3", function () {
         $(".bonus-image").attr("src", "./bonus_imgs/hilfinger.jpg");
     }],
-    ["./bonus_clips/SixFigsRespeck.wav", function () {
+    ["./bonus_clips/SixFigsRespeck.mp3", function () {
         $(".bonus-image").attr("src", "./bonus_imgs/sixfigsrespek.jpg");
     }]
 ];
