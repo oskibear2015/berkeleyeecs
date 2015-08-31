@@ -92,8 +92,10 @@ function masterrace() {
 function fourpointoh() {
     $(".fourpointoh-text").css("left", "100%");
     $(".fourpointoh-text").animate({"left": "-300%"}, 4000, "linear");
-    setTimeout(function () {}, 
-    );
+    $(".fourpointoh-text").attr("visibility", "visible");
+    setTimeout(function () {
+        $(".fourpointoh-text").attr("visibility", "hidden");
+    }, 4000);
 }
 
 function title() {
