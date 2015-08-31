@@ -103,11 +103,6 @@ function title() {
 }
 
 function start1() {
-    loopAudio.load();
-    loopAudio.loop = true;
-    loopAudio.play();
-    loopAudio.pause();
-
     pulse();
     introAudio.play();
     setTimeout(start2, BEAT_TIME * 2);
