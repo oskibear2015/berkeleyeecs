@@ -20,7 +20,7 @@ var eecsShit = [
     }]
 ];
 
-var BEAT_TIME = (60 / 143.1) * 1000;
+var BEAT_TIME = (60 / 142.99) * 1000;
 // used to be 143 bpm 
 var fonts = [
     "Georgia, serif",
