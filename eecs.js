@@ -152,8 +152,8 @@ introAudio.load();
 //loopAudio.play();
 //loopAudio.pause();
 
-//setTimeout(start1, 10);
-start1();
+setTimeout(start1, 1000);
+//start1();
 
 function moreeecs() {
     var shitArray = eecsShit[Math.floor(Math.random() * eecsShit.length)];
