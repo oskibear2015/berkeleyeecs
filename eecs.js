@@ -163,7 +163,11 @@ function start0 () {
     introAudio.play();
     introAudio.pause();
 
-    setTimeout(start1, 50);
+    if (iOS) {
+        setTimeout(start1, 1000);
+    } else {
+        setTimeout(start1, 50);
+    }
 }
 
 introAudio.load();
