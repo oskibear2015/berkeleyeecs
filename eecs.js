@@ -158,10 +158,10 @@ function body() {
 }
 
 function start0 () {
-    introAudio.load();
-    introAudio.loop = true;
-    introAudio.play();
-    introAudio.pause();
+    loopAudio.load();
+    loopAudio.loop = true;
+    loopAudio.play();
+    loopAudio.pause();
 
     if (iOS) {
         setTimeout(start1, 1000);
