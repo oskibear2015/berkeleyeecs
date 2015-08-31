@@ -163,7 +163,7 @@ function start0 () {
     loopAudio.pause();
 
     if (iOS) {
-        setTimeout(start1, 1000);
+        setTimeout(start1, 50);
     } else {
         setTimeout(start1, 50);
     }
