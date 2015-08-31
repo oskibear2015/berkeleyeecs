@@ -1,3 +1,5 @@
+var iOS = /iPad|iPhone|iPod/.test(navigator.platform);
+
 var introAudio = new Audio('intro.mp3');
 var loopAudio = new Audio('loop.mp3');
 var eecsShit = [
@@ -147,12 +149,13 @@ function body() {
 }
 
 introAudio.load();
-//loopAudio.load();
-//loopAudio.loop = true;
-//loopAudio.play();
-//loopAudio.pause();
 
-start1();
+if (iOS) {
+    $(".eecs-text").text("click");
+    $(".eecs-text").click(start1);
+} else {
+    start1();
+}
 
 function moreeecs() {
     var shitArray = eecsShit[Math.floor(Math.random() * eecsShit.length)];
