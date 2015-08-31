@@ -163,7 +163,7 @@ function start0 () {
     introAudio.play();
     introAudio.pause();
 
-    setTimeout(start1, 1000);
+    setTimeout(start1, 50);
 }
 
 introAudio.load();
