@@ -156,6 +156,7 @@ introAudio.load();
 fourpointoh();
 if (iOS) {
     $(".fourpointoh-text").text("4.0");
+    $(".eecs-text").css("font-size", "20vm");
     $(".eecs-text").text("click");
     $(".eecs-text").click(function () {
         $(".eecs-text").text("EECS");
