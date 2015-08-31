@@ -91,7 +91,7 @@ function masterrace() {
 
 function fourpointoh() {
     $(".fourpointoh-text").css("left", "100%");
-    $(".fourpointoh-text").animate({"left": "-1000%"}, 4000, "linear");
+    $(".fourpointoh-text").animate({"left": "-300%"}, 4000, "linear");
 }
 
 function title() {
@@ -149,9 +149,9 @@ function body() {
 }
 
 introAudio.load();
-
 fourpointoh();
 if (iOS) {
+    $(".fourpointoh-text").text("4.0");
     $(".eecs-text").text("click");
     $(".eecs-text").click(function () {
         $(".eecs-text").text("EECS");
