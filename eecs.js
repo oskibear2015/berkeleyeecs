@@ -2,6 +2,8 @@ var iOS = /iPad|iPhone|iPod/.test(navigator.platform);
 
 var introAudio = new Audio('intro.mp3');
 var loopAudio = new Audio('loop.mp3');
+introAudio.load();
+loopAudio.load();
 var eecsShit = [
     ["./bonus_clips/AnantSahai.mp3", function () {
         $(".bonus-image").attr("src", "./bonus_imgs/sahai.jpg");
@@ -153,11 +155,9 @@ function body() {
 }
 
 function start0 () {
-    introAudio.load();
     introAudio.play();
     introAudio.pause();
 
-    loopAudio.load();
     loopAudio.loop = true;
     loopAudio.play();
     loopAudio.pause();
