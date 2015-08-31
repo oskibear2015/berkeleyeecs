@@ -177,7 +177,7 @@ if (iOS) {
         start0();
     });
 } else {
-    start1();
+    start0();
 }
 
 function moreeecs() {
