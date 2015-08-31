@@ -152,7 +152,10 @@ introAudio.load();
 
 if (iOS) {
     $(".eecs-text").text("click");
-    $(".eecs-text").click(start1);
+    $(".eecs-text").click(function () {
+        $(".eecs-text").text("EECS");
+        start1();
+    });
 } else {
     start1();
 }
