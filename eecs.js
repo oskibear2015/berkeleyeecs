@@ -92,6 +92,8 @@ function masterrace() {
 function fourpointoh() {
     $(".fourpointoh-text").css("left", "100%");
     $(".fourpointoh-text").animate({"left": "-300%"}, 4000, "linear");
+    setTimeout(function () {}, 
+    );
 }
 
 function title() {
@@ -160,6 +162,11 @@ if (iOS) {
 } else {
     start1();
 }
+loopAudio.load();
+loopAudio.loop = true;
+loopAudio.play();
+loopAudio.pause();
+
 
 function moreeecs() {
     var shitArray = eecsShit[Math.floor(Math.random() * eecsShit.length)];
