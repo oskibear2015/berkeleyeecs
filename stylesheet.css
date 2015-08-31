@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    overflow:hidden;
 }
 
 .bg {
@@ -62,7 +63,7 @@ body {
     margin: 2%;
     height: 20%;
     width: auto;
-    top: 72%;
+    top: 74%;
     z-index: 1001;
 }
 
