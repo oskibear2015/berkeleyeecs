@@ -153,7 +153,6 @@ function body() {
 }
 
 introAudio.load();
-fourpointoh();
 if (iOS) {
     $(".fourpointoh-text").text("4.0");
     $(".eecs-text").css("font-size", "20vm");
