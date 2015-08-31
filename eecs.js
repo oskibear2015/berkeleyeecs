@@ -157,14 +157,24 @@ function body() {
     }, BEAT_TIME * 48);
 }
 
+function start0 () {
+    introAudio.load();
+    introAudio.loop = true;
+    introAudio.play();
+    introAudio.pause();
+
+    setTimeout(start1, 1000);
+}
+
 introAudio.load();
 if (iOS) {
+
     $(".fourpointoh-text").text("4.0");
     $(".eecs-text").css("font-size", "200px");
     $(".eecs-text").text("touch here");
     $(".eecs-text").click(function () {
         $(".eecs-text").text("EECS");
-        start1();
+        start0();
     });
 } else {
     start1();
