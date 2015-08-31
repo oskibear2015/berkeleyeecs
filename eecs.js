@@ -90,8 +90,8 @@ function masterrace() {
 }
 
 function fourpointoh() {
-    $(".fourpointoh-text").css("left", "220%");
-    $(".fourpointoh-text").animate({"left": "-200%"}, 4000, "linear");
+    $(".fourpointoh-text").css("left", "100%");
+    $(".fourpointoh-text").animate({"left": "-300%"}, 4000, "linear");
 }
 
 function title() {
@@ -150,6 +150,7 @@ function body() {
 
 introAudio.load();
 
+fourpointoh();
 if (iOS) {
     $(".eecs-text").text("click");
     $(".eecs-text").click(function () {
