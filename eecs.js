@@ -131,6 +131,10 @@ function loopMusic() {
 }
 
 function body() {
+    setTimeout(function () {
+        setInterval(fourpointoh, BEAT_TIME * 32);
+        setInterval(loopMusic, BEAT_TIME * 32);
+    }, BEAT_TIME * 48);
     setInterval(loop, 50);
     setTimeout(function () {
         iam();
@@ -148,10 +152,6 @@ function body() {
     setInterval(fontChange, 100);
     setInterval(title, 10);
     setInterval(pulse, BEAT_TIME);
-    setTimeout(function () {
-        setInterval(fourpointoh, BEAT_TIME * 32);
-        setInterval(loopMusic, BEAT_TIME * 32);
-    }, BEAT_TIME * 48);
 }
 
 function start0 () {
