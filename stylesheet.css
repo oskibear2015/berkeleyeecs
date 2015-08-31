@@ -65,10 +65,10 @@ body {
 
 .meecs {
     position: fixed;
-    left: 90%;
+    left: 80%;
     top: 90%;
     font-family: sans-serif;
-    font-size: 2vmin;
+    font-size: 4vmin;
     text-decoration: underline;
 }
 
