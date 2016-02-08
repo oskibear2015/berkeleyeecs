@@ -52,9 +52,6 @@ function getRandomColorDark() {
 }
 
 function loop() {
-    $(".bg").css("background-color", getRandomColor());
-    $(".eecs-text").css("color", getRandomColor());
-    $(".dark").css("color", getRandomColorDark());
 
     var WIGGLE =  window.screen.availHeight * window.screen.availWidth / 100000; // approximately 20 for full-screen
     var w = $(".bg").width();
