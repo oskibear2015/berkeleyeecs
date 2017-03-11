@@ -1,0 +1,23 @@
+{
+  "name": "danielfunpage",
+  "version": "0.0.1",
+  "description": "fun page for daniel",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dandesonjew/berkeleyeecs.git"
+  },
+  "author": "daniel anderson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dandesonjew/berkeleyeecs/issues"
+  },
+  "homepage": "https://github.com/dandesonjew/berkeleyeecs#readme",
+  "dependencies": {
+    "http-server": "^0.9.0"
+  }
+}
