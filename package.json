@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/dandesonjew/berkeleyeecs/issues"
   },
-  "homepage": "https://github.com/dandesonjew/berkeleyeecs#readme"
+  "homepage": "https://github.com/dandesonjew/berkeleyeecs#readme",
+  "dependencies": {
+    "http-server": "^0.9.0"
+  }
 }
